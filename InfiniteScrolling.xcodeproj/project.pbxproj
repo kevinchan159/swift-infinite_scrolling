@@ -7,23 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C2A88C7F1F33D4ED0022C965 /* InfiniteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2A88C7E1F33D4ED0022C965 /* InfiniteViewController.swift */; };
 		C2AB433E1F335DA400A202E7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2AB433D1F335DA400A202E7 /* AppDelegate.swift */; };
-		C2AB43401F335DA400A202E7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2AB433F1F335DA400A202E7 /* ViewController.swift */; };
-		C2AB43431F335DA400A202E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2AB43411F335DA400A202E7 /* Main.storyboard */; };
-		C2AB43461F335DA400A202E7 /* InfiniteScrolling.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C2AB43441F335DA400A202E7 /* InfiniteScrolling.xcdatamodeld */; };
 		C2AB43481F335DA400A202E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2AB43471F335DA400A202E7 /* Assets.xcassets */; };
 		C2AB434B1F335DA400A202E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2AB43491F335DA400A202E7 /* LaunchScreen.storyboard */; };
+		C2AB43531F335F1A00A202E7 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2AB43521F335F1A00A202E7 /* CustomCell.swift */; };
+		C2AB43571F33BE7E00A202E7 /* iCarousel.m in Sources */ = {isa = PBXBuildFile; fileRef = C2AB43561F33BE7E00A202E7 /* iCarousel.m */; };
+		C2AB43591F33BF5700A202E7 /* CarouselViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2AB43581F33BF5700A202E7 /* CarouselViewController.swift */; };
+		C2AB435B1F33C3C400A202E7 /* CarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2AB435A1F33C3C400A202E7 /* CarouselView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C2A88C7E1F33D4ED0022C965 /* InfiniteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfiniteViewController.swift; sourceTree = "<group>"; };
 		C2AB433A1F335DA400A202E7 /* InfiniteScrolling.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InfiniteScrolling.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2AB433D1F335DA400A202E7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C2AB433F1F335DA400A202E7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		C2AB43421F335DA400A202E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		C2AB43451F335DA400A202E7 /* InfiniteScrolling.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = InfiniteScrolling.xcdatamodel; sourceTree = "<group>"; };
 		C2AB43471F335DA400A202E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C2AB434A1F335DA400A202E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C2AB434C1F335DA400A202E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2AB43521F335F1A00A202E7 /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		C2AB43541F33BE7D00A202E7 /* InfiniteScrolling-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "InfiniteScrolling-Bridging-Header.h"; sourceTree = "<group>"; };
+		C2AB43551F33BE7E00A202E7 /* iCarousel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCarousel.h; sourceTree = "<group>"; };
+		C2AB43561F33BE7E00A202E7 /* iCarousel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iCarousel.m; sourceTree = "<group>"; };
+		C2AB43581F33BF5700A202E7 /* CarouselViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarouselViewController.swift; sourceTree = "<group>"; };
+		C2AB435A1F33C3C400A202E7 /* CarouselView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarouselView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,12 +63,16 @@
 			isa = PBXGroup;
 			children = (
 				C2AB433D1F335DA400A202E7 /* AppDelegate.swift */,
-				C2AB433F1F335DA400A202E7 /* ViewController.swift */,
-				C2AB43411F335DA400A202E7 /* Main.storyboard */,
+				C2AB43581F33BF5700A202E7 /* CarouselViewController.swift */,
+				C2AB435A1F33C3C400A202E7 /* CarouselView.swift */,
+				C2A88C7E1F33D4ED0022C965 /* InfiniteViewController.swift */,
+				C2AB43521F335F1A00A202E7 /* CustomCell.swift */,
+				C2AB43551F33BE7E00A202E7 /* iCarousel.h */,
+				C2AB43561F33BE7E00A202E7 /* iCarousel.m */,
+				C2AB43541F33BE7D00A202E7 /* InfiniteScrolling-Bridging-Header.h */,
 				C2AB43471F335DA400A202E7 /* Assets.xcassets */,
 				C2AB43491F335DA400A202E7 /* LaunchScreen.storyboard */,
 				C2AB434C1F335DA400A202E7 /* Info.plist */,
-				C2AB43441F335DA400A202E7 /* InfiniteScrolling.xcdatamodeld */,
 			);
 			path = InfiniteScrolling;
 			sourceTree = "<group>";
@@ -100,6 +110,7 @@
 					C2AB43391F335DA400A202E7 = {
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = JAY3LN6548;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -129,7 +140,6 @@
 			files = (
 				C2AB434B1F335DA400A202E7 /* LaunchScreen.storyboard in Resources */,
 				C2AB43481F335DA400A202E7 /* Assets.xcassets in Resources */,
-				C2AB43431F335DA400A202E7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,8 +150,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C2AB43401F335DA400A202E7 /* ViewController.swift in Sources */,
-				C2AB43461F335DA400A202E7 /* InfiniteScrolling.xcdatamodeld in Sources */,
+				C2A88C7F1F33D4ED0022C965 /* InfiniteViewController.swift in Sources */,
+				C2AB43591F33BF5700A202E7 /* CarouselViewController.swift in Sources */,
+				C2AB43571F33BE7E00A202E7 /* iCarousel.m in Sources */,
+				C2AB43531F335F1A00A202E7 /* CustomCell.swift in Sources */,
+				C2AB435B1F33C3C400A202E7 /* CarouselView.swift in Sources */,
 				C2AB433E1F335DA400A202E7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -149,14 +162,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		C2AB43411F335DA400A202E7 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C2AB43421F335DA400A202E7 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		C2AB43491F335DA400A202E7 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -267,11 +272,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = JAY3LN6548;
 				INFOPLIST_FILE = InfiniteScrolling/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = kevinchan.InfiniteScrolling;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "InfiniteScrolling/InfiniteScrolling-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -280,11 +288,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = JAY3LN6548;
 				INFOPLIST_FILE = InfiniteScrolling/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = kevinchan.InfiniteScrolling;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "InfiniteScrolling/InfiniteScrolling-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -308,21 +318,9 @@
 				C2AB43511F335DA400A202E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		C2AB43441F335DA400A202E7 /* InfiniteScrolling.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				C2AB43451F335DA400A202E7 /* InfiniteScrolling.xcdatamodel */,
-			);
-			currentVersion = C2AB43451F335DA400A202E7 /* InfiniteScrolling.xcdatamodel */;
-			path = InfiniteScrolling.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = C2AB43321F335DA400A202E7 /* Project object */;
 }
